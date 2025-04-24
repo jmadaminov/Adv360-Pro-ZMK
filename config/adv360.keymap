@@ -32,7 +32,7 @@
         reformat_code: reformat_code {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&hm LA(LEFT_COMMAND) L>;
+            bindings = <&hm LA(LG(L)) L>;
             label = "REFORMAT_CODE";
         };
     };
