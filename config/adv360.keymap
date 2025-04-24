@@ -25,14 +25,14 @@
         control_tab: control_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp TAB>;
+            bindings = <&hm LEFT_CONTROL TAB>;
             label = "CONTROL_TAB";
         };
 
         reformat_code: reformat_code {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp LEFT_COMMAND &kp L>;
+            bindings = <&hm LEFT_COMMAND L>;
             label = "REFORMAT_CODE";
         };
     };
