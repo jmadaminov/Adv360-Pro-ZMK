@@ -34,7 +34,7 @@
         control_tab: control_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(TAB)>;
+            bindings = <&hold_tap_behavior LEFT_CONTROL TAB>;
             label = "CONTROL_TAB";
         };
 
